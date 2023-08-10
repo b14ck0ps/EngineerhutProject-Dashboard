@@ -258,10 +258,12 @@ body {
         font-size: 1rem;
     }
 }
+
 @media screen and (max-width: 900px) {
     .side-navbar {
         width: 30%;
     }
+
     .form-group {
         margin-bottom: 10px;
         margin-left: 10px;
@@ -287,13 +289,33 @@ body {
 }
 
 @media screen and (max-width: 580px) {
-    .main-body{
+    .main-body {
         padding: 0;
     }
-    .profile-basic{
+
+    .profile-basic {
         margin: 0;
     }
+
     .side-navbar {
         display: none;
+    }
+
+    .side-navbar.active {
+        display: block;
+        position: absolute;
+        background-color: white;
+        width: 60%;
+        height: 94vh;
+        z-index: 1;
+    }
+
+    .logout {
+        margin-bottom: 0;
+    }
+
+    .save-button {
+        padding: 16px 40px;
+        margin: 0px;
     }
 }
