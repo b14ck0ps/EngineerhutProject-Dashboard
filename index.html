@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Your Webpage</title>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="navbar-content">
+            <div class="hamburger-menu">
+                <div class="hamburger-tile"></div>
+                <div class="hamburger-tile"></div>
+                <div class="hamburger-tile"></div>
+            </div>
+
+            <div class="profile-section">
+                <img class="svg-icon-nav" src="/Assets//svg/bell-pin-svgrepo-com.svg" alt="">
+                <div class="profile-info">
+                    <img src="./Assets/avater/profile-picture.jpg" alt="Profile Picture" class="profile-picture">
+                    <span class="profile-name">Azran Hossain</span>
+                    <span class="dropdown-arrow"></span>
+                </div>
+            </div>
+
+        </div>
+    </nav>
+    <main class="main-body">
+        <!-- This is the side nav bar -->
+        <aside class="side-navbar">
+            <h3 class="title">User Profile</h3>
+            <ul class="side-nav-links">
+                <li class="active "> <img class="svg-icon" src="Assets/svg/user-svgrepo-com.svg" alt="">User info</li>
+                <li> <img class="svg-icon" src="Assets/svg/love-svgrepo-com.svg" alt="">Favourites</li>
+                <li> <img class="svg-icon" src="Assets/svg/star-svgrepo-com.svg" alt="">Watchlist</li>
+                <li> <img class="svg-icon" src="Assets/svg/setting-svgrepo-com.svg" alt="">Setting</li>
+                <li> <img class="svg-icon" src="Assets/svg/bell-pin-svgrepo-com.svg" alt="">Notifications</li>
+                <li class="logout"><img class="svg-icon" src="Assets/svg/logout-circle-svgrepo-com.svg" alt="">Log out
+                </li>
+            </ul>
+        </aside>
+
+        <!-- This is the main actual body -->
+        <section class="main-section">
+            <section class="profile-basic">
+                <div class="profile-image-container">
+                    <img src="./Assets/avater/profile-picture.jpg" alt="Profile Picture" class="main-profile-picture">
+                    <span class="edit-icon">
+                        <img class="svg-icon-pen" src="Assets/svg/pen-svgrepo-com.svg" alt="">
+                    </span>
+                </div>
+                <div class="profile-details">
+                    <h4 class="name">Azran Hossain</h4>
+                    <p class="address">Dhaka , Bangladesh</p>
+                </div>
+            </section>
+            <form class="profile-form">
+                <section class="left-side-form">
+                    <div class="form-group">
+                        <label class="label" for="name">Name</label>
+                        <input type="text" id="name" class="input-box" placeholder="Name" value="Azran">
+                    </div>
+                    <div class="form-group">
+                        <label class="label" for="email">Email</label>
+                        <input type="email" id="email" class="input-box" placeholder="Email Address"
+                            value="mr69751@gmail.com">
+                    </div>
+                    <div class="form-group">
+                        <label class="label" for="location">Location</label>
+                        <input type="text" id="location" class="input-box" placeholder="Location"
+                            value="Dhaka, Bangladesh">
+                    </div>
+                </section>
+                <section class="left-side-form">
+                    <div class="form-group">
+                        <label class="label" for="fullName">Full Name</label>
+                        <input type="text" id="fullName" class="input-box" placeholder="Full Name"
+                            value="Azran Hossain">
+                    </div>
+                    <div class="form-group">
+                        <label class="label" for="phoneNumber">Phone Number</label>
+                        <input type="tel" id="phoneNumber" class="input-box" placeholder="Phone Number"
+                            value="01714979088">
+                    </div>
+                    <div class="form-group">
+                        <label class="label" for="postalCode">Postal Code</label>
+                        <input type="text" id="postalCode" class="input-box" placeholder="Postal Code" value="1366">
+                    </div>
+                </section>
+            </form>
+            <div class="center-btn-location">
+                <button type="submit" class="save-button">Save Changes</button>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
