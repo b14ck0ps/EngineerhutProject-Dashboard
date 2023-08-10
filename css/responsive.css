@@ -40,6 +40,10 @@
 }
 
 @media screen and (max-width: 580px) {
+    .main-section {
+        box-sizing: unset;
+    }
+
     .main-body {
         padding: 0;
     }
