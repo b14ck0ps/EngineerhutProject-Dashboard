@@ -133,6 +133,11 @@ body {
     border-right: 3px solid var(--primary-color);
 }
 
+.side-nav-links li:hover {
+    color: rgb(0, 0, 0);
+    opacity: 1;
+}
+
 .side-nav-links li.logout {
     margin-top: auto;
     color: #ff2323;
@@ -174,6 +179,11 @@ body {
     border-radius: 50%;
     bottom: 10px;
     left: 90px;
+}
+
+.edit-icon:hover {
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
 }
 
 .profile-details {
@@ -238,6 +248,11 @@ body {
     font-size: 1.2rem;
     box-shadow: 0 8px 20px #ffbca5;
     cursor: pointer;
+}
+
+.save-button:hover {
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
 }
 
 .center-btn-location {
